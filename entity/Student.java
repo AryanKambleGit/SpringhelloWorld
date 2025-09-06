@@ -14,8 +14,7 @@ public class Student {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-
+    private Long age;
     private String name;
     private String email;
-
 }
