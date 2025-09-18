@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome Page</title>
+</head>
+<body>
+        <!--<h1>Hello Spring Boot + Thymeleaf 🎉</h1>-->
+        <!--<p>This is your first page running from Spring Boot.</p>-->
+
+        <h1>Hello, <span th:text="${name}">User</span> 🎉</h1>
+        <p>Current time is: <span th:text="${time}"></span></p>
+
+</body>
+</html>
